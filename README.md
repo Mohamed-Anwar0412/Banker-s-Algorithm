@@ -5,5 +5,5 @@ To use this program, you will need to have Visual Studio installed on your compu
 **Open the solution file Banker's Algorithm.sln in Visual Studio and build the project.**
 # Usage
 When you run the program, you will see:
-- a GUI that allows you to specify the number of processes and resources
+- a GUI that allows you to specify the number of processes and resources<br />
 ![setup system](/Screenshots/setup_system.png)
