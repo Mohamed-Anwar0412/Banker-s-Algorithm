@@ -24,6 +24,6 @@ This implementation of the algorithm uses the following steps:
 ![Request](/Screenshots/Request.png)<br />
 5. If the **Request** is valid the safe sequence will be displayed<br />
 ![Result](/Screenshots/Result.png)<br />
-<hr />
+
 # Contributing
 Contributions to this project are welcome! If you would like to contribute, please fork the repository and make your changes in a separate branch. Once you have made your changes, submit a pull request with a description of the changes you made.
