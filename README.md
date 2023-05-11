@@ -6,4 +6,5 @@ To use this program, you will need to have Visual Studio installed on your compu
 # Usage
 When you run the program, you will see:
 - a GUI that allows you to specify the number of processes and resources<br />
-![setup system](/Screenshots/setup_system.png)
+![setup system](/Screenshots/setup_system.png)<br/>
+- Input **Maximum** need for each process, **current allocation**, and **Total resources**<br/>
