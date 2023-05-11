@@ -10,6 +10,10 @@ If the system is in a safe state, you will see a message indicating that the sys
 
 # How it works
 
+The Banker's algorithm is used to prevent deadlocks in resource allocation. The algorithm works by examining the available resources, the maximum resources each process may need, and the resources already allocated to each process. Based on this information, the algorithm determines whether the system is in a safe state (i.e., there is no deadlock) and calculates the order in which the processes can be executed.
+
+This implementation of the algorithm uses the following steps:
+
 1. a GUI that allows you to specify the number of processes and resources<br />
 ![setup system](/Screenshots/setup_system.png)<br />
 2. Input **Maximum** need for each process, **current allocation**, and **Total resources** and press *Calculate*<br/>
@@ -20,3 +24,6 @@ If the system is in a safe state, you will see a message indicating that the sys
 ![Request](/Screenshots/Request.png)<br />
 5. If the **Request** is valid the safe sequence will be displayed<br />
 ![Result](/Screenshots/Result.png)<br />
+
+# Contributing
+Contributions to this project are welcome! If you would like to contribute, please fork the repository and make your changes in a separate branch. Once you have made your changes, submit a pull request with a description of the changes you made.
