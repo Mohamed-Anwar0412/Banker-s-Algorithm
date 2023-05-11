@@ -5,13 +5,13 @@ To use this program, you will need to have Visual Studio installed on your compu
 **Open the solution file Banker's Algorithm.sln in Visual Studio and build the project.**
 # Usage
 When you run the program, you will see:
-- a GUI that allows you to specify the number of processes and resources<br />
+- a GUI that allows you to specify the number of processes and resources<br /><br/>
 ![setup system](/Screenshots/setup_system.png)<br/>
-- Input **Maximum** need for each process, **current allocation**, and **Total resources** and press *Calculate*<br/>
+- Input **Maximum** need for each process, **current allocation**, and **Total resources** and press *Calculate*<br/><br/>
 ![Data1](/Screenshots/Data1.png)<br/>
-- The Available resources will be calculated in the **Available** table<br/>
+- The Available resources will be calculated in the **Available** table<br/><br/>
 ![Data2](/Screenshots/Data2.png)<br/>
 - Select process number, resource number, and number of the selected resource from the drop down menu<br/>
 ![Request](/Screenshots/Request.png)<br/>
-- If the **Request** is valid the safe sequence will be displayed<br/>
+- If the **Request** is valid the safe sequence will be displayed<br/><br/>
 ![Result](/Screenshots/Result.png)<br/>
