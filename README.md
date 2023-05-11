@@ -6,4 +6,4 @@ To use this program, you will need to have Visual Studio installed on your compu
 # Usage
 When you run the program, you will see:
 - a GUI that allows you to specify the number of processes and resources
-![setup system](/Screenshots/setup system.png)
+![setup system](/Screenshots/setup_system.png)
