@@ -14,13 +14,36 @@ The Banker's algorithm is used to prevent deadlocks in resource allocation. The 
 
 This implementation of the algorithm uses the following steps:
 
-## 1. The first form in the Banker's Algorithm implementation is a GUI form that allows the user to input the number of processes and resources. <br />
+## 1. Setup System form
+The first form in the Banker's Algorithm implementation is a GUI form that allows the user to input the number of processes and resources. <br />
 ### The form includes the following controls:
 - Two labels that prompt the user to enter the number of processes and resources. <br/>
 - Two textboxes that allow the user to enter the number of processes and resources. <br/>
 - A button labeled "Enter" that the user can click to proceed to the next form. <br/>
 ![setup system](/Screenshots/setup_system.png)<br />
-2. Input **Maximum** need for each process, **current allocation**, and **Total resources** and press *Calculate*<br/>
+## 2. Data Form<br/>
+This form is used to gather data for the Banker's algorithm simulation. It allows the user to enter information about the current state of the system, including the current allocation, maximum need, total resources available.
+
+# Components
+The form consists of the following components:
+
+- currentAllocation: a DataGridView object that allows the user to enter the current resource allocation for each process.
+- totalView: a DataGridView object that allows the user to enter the total number of resources available for each resource type.
+- maxNeed: a DataGridView object that allows the user to enter the maximum need of each process for each resource type.
+- available: a DataGridView object that displays the available resources after the user has entered the current allocation.
+- Calculate: a button that calculates the available resources.
+- Next: a button that allows the user to proceed to the next form.
+# Implementation
+The form is implemented as a C# class that extends the Form class. It has a constructor that takes two parameters: numProc and numRes, which specify the number of processes and resources, respectively. The constructor initializes the form by setting the numProc and numRes fields and hiding button2.
+
+The setTables() method is used to set up the currentAllocation, totalView, maxNeed, and available DataGridView objects. It adds columns for each resource type and rows for each process.
+
+The button1_Click() method is called when the user clicks on button1. It calculates the available resources by subtracting the used resources from the total resources for each resource type. If the user enters an incorrect value, an error message is displayed.
+
+The button2_Click() method is called when the user clicks on button2. It creates a new Query form and passes it the necessary information to perform the Banker's algorithm simulation. The Data form is then hidden and closed.
+
+# Usage
+To use the form, the user must enter the current allocation, maximum need, and total resources available for each resource type. Once the user has entered all the data, they can click on **Calculate** to calculate the available resources. If there are no errors, **Next** will become visible, and the user can click on it to proceed to the next form.
 ![Data1](/Screenshots/Data1.png)<br />
 3. The Available resources will be calculated in the **Available** table<br />
 ![Data2](/Screenshots/Data2.png)<br />
