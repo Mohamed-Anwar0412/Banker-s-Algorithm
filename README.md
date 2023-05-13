@@ -51,7 +51,7 @@ To use the form, the user must enter the current allocation, maximum need, and t
 
 ![Data2](/Screenshots/Data2.png)<br />
 
-# 3. Query Forme<br />
+# 3. Query Form<br />
 The Query class is a form that allows the user to make resource allocation requests and see if they can be granted safely without causing a deadlock.
 
 The class contains the following private variables:
