@@ -79,7 +79,15 @@ Overall, the Query class provides a graphical interface for the user to interact
 
 ![Request](/Screenshots/Request.png)<br />
 
-5. If the **Request** is valid the safe sequence will be displayed<br />
+# 5. Result Form<br />
+This form displays the results of running the Banker's Algorithm. It takes two parameters, safe and safeSeq, which are a boolean array and a list of integers respectively. The safe array indicates whether each process is safe or not, and the safeSeq list indicates the order in which safe processes can be executed.
+
+The form has a single label (label1) which is used to display the results. The showResults method is called in the constructor to display the appropriate message in the label based on the safe and safeSeq parameters.
+
+If any process is unsafe, the label shows "Unsafe for this request!!". Otherwise, it shows a string that indicates that the system is safe, along with the order in which processes can be executed safely, such as "Safe with Sequence: P1 P3 P2".
+
+Overall, this form provides a simple and intuitive way for users to visualize the results of running the Banker's Algorithm.
+
 ![Result](/Screenshots/Result.png)<br />
 
 # Contributing
