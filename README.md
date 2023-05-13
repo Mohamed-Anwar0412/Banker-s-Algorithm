@@ -40,6 +40,8 @@ The form is implemented as a C# class that extends the Form class. It has a cons
 
 The setTables() method is used to set up the currentAllocation, totalView, maxNeed, and available DataGridView objects. It adds columns for each resource type and rows for each process.
 
+![Data1](/Screenshots/Data1.png)<br />
+
 The button1_Click() method is called when the user clicks on button1. It calculates the available resources by subtracting the used resources from the total resources for each resource type. If the user enters an incorrect value, an error message is displayed.
 
 The button2_Click() method is called when the user clicks on button2. It creates a new Query form and passes it the necessary information to perform the Banker's algorithm simulation. The Data form is then hidden and closed.
@@ -47,7 +49,7 @@ The button2_Click() method is called when the user clicks on button2. It creates
 ## Usage
 To use the form, the user must enter the current allocation, maximum need, and total resources available for each resource type. Once the user has entered all the data, they can click on **Calculate** to calculate the available resources. If there are no errors, **Next** will become visible, and the user can click on it to proceed to the next form.
 
-![Data1](/Screenshots/Data1.png)<br />
+![Data2](/Screenshots/Data2.png)<br />
 
 # 3. Query Forme<br />
 The Query class is a form that allows the user to make resource allocation requests and see if they can be granted safely without causing a deadlock.
@@ -75,10 +77,8 @@ The text_box1_KeyPress method is a helper method that prevents the user from ent
 
 Overall, the Query class provides a graphical interface for the user to interact with the Banker's algorithm and see the results of resource allocation requests.
 
-![Data2](/Screenshots/Data2.png)<br />
-
-4. Select process number, resource number, and number of the selected resource from the drop down menu<br />
 ![Request](/Screenshots/Request.png)<br />
+
 5. If the **Request** is valid the safe sequence will be displayed<br />
 ![Result](/Screenshots/Result.png)<br />
 
