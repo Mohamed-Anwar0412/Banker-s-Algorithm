@@ -14,7 +14,11 @@ The Banker's algorithm is used to prevent deadlocks in resource allocation. The 
 
 This implementation of the algorithm uses the following steps:
 
-1. a GUI that allows you to specify the number of processes and resources<br />
+1. The first form in the Banker's Algorithm implementation is a GUI form that allows the user to input the number of processes and resources. <br />
+## The form includes the following controls:
+Two labels that prompt the user to enter the number of processes and resources. <br/>
+Two textboxes that allow the user to enter the number of processes and resources. <br/>
+A button labeled "Enter" that the user can click to proceed to the next form. <br/>
 ![setup system](/Screenshots/setup_system.png)<br />
 2. Input **Maximum** need for each process, **current allocation**, and **Total resources** and press *Calculate*<br/>
 ![Data1](/Screenshots/Data1.png)<br />
