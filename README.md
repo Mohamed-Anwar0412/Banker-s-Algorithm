@@ -44,7 +44,9 @@ The button2_Click() method is called when the user clicks on button2. It creates
 
 ## Usage
 To use the form, the user must enter the current allocation, maximum need, and total resources available for each resource type. Once the user has entered all the data, they can click on **Calculate** to calculate the available resources. If there are no errors, **Next** will become visible, and the user can click on it to proceed to the next form.
+
 ![Data1](/Screenshots/Data1.png)<br />
+
 3. The Available resources will be calculated in the **Available** table<br />
 ![Data2](/Screenshots/Data2.png)<br />
 4. Select process number, resource number, and number of the selected resource from the drop down menu<br />
